@@ -146,53 +146,59 @@ h1 {
 }
 
 #cont_slider {
-  width: 98%;
-  /* border: 1px solid brown; */
+  width: 80%;
+  border: 1px solid brown;
   height: 550px;
-  margin: 10% auto;
+  margin: 5% auto;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+/* #contenedor_slider {
+  width: 90%;
+} */
 
-#slider_01,
-#slider_02,
-#slider_03 {
-  /* border: 1px solid rebeccapurple; */
+.slider_ {
+  /* width: 33%; */
+  border: 1px solid rebeccapurple;
   display: flex;
   align-items: center;
 }
 
-#slider_01 {
+#slider_03, #slider_01 {
+  width: 25%;
+  border: 5px solid rgb(44, 241, 5);
   flex-direction: row-reverse;
   box-shadow: 2px 2px 12px #6f70707c;
 }
-#slider_03 {
+#slider_02 {
+  width: 50%;
+  border: 5px solid rgb(241, 159, 5);
   box-shadow: 2px 2px 12px #6f70707c;
 }
 
 #img_01 {
-  /* border: 2px solid rgb(10, 236, 67); */
+  border: 2px solid rgb(10, 236, 67);
   width: 350px;
 }
 #img_02 {
-  /* border: 2px solid rgb(10, 236, 67); */
+  border: 2px solid rgb(10, 236, 67);
   width: 350px;
 }
 #img_03 {
-  /* border: 2px solid rgb(10, 236, 67); */
+  border: 2px solid rgb(10, 236, 67);
   width: 350px;
 }
 #cont_img_01 {
-  /* border: 3px solid rgb(137, 13, 153); */
+  border: 3px solid rgb(137, 13, 153);
   width: 230px;
   height: 345px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627141690/landing_sapiensa/img/brand_ser_zvd5eo.jpg);
   background-size: cover;
 }
 #cont_info_01 {
-  /* border: 2px solid rgb(36, 236, 10); */
+  border: 2px solid rgb(36, 236, 10);
   background-color: #00b1bb;
   display: flex;
   width: 85px;
@@ -202,14 +208,14 @@ h1 {
   align-items: center;
 }
 #cont_img_02 {
-  /* border: 3px solid sandybrown; */
+  border: 3px solid sandybrown;
   width: 490px;
   height: 430px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627142427/landing_sapiensa/img/web_i2rar5.jpg);
   background-size: cover;
 }
 #cont_info_02 {
-  /* border: 2px solid rgb(10, 14, 236); */
+  border: 2px solid rgb(10, 14, 236);
   background-color: #00b1bb;
   display: flex;
   box-shadow: 2px 2px 12px #6f7070b7;
@@ -227,14 +233,14 @@ h1 {
 }
 
 #cont_img_03 {
-  /* border: 3px solid rgb(137, 13, 153); */
+  border: 3px solid rgb(137, 13, 153);
   width: 230px;
   height: 345px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627142845/landing_sapiensa/img/recording_keacgx.jpg);
   background-size: cover;
 }
 #cont_info_03 {
-  /* border: 2px solid rgb(36, 236, 10); */
+  border: 2px solid rgb(36, 236, 10);
   background-color: #00b1bb;
   display: flex;
   width: 85px;
@@ -291,14 +297,14 @@ h1 {
 }
 
 .cont_projects {
-  /* border: 3px solid rgb(137, 13, 153); */
+  border: 3px solid rgb(81, 196, 46);
   width: 97%;
-  height: 700px;
+  height: 60%;
   margin: 10% auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .cont_projects h2 {
@@ -307,8 +313,8 @@ h1 {
 }
 
 .cont_carrusel {
-  /* border: 3px solid rgb(137, 13, 153); */
-  width: 97%;
+  border: 3px solid rgb(154, 201, 25);
+  width: 80%;
   height: 40%;
   display: flex;
   justify-content: space-around;
@@ -316,16 +322,19 @@ h1 {
 }
 
 .img_projects {
-  border: 3px solid rgb(13, 153, 60);
+  /* text-align: center; */
+  border: 3px solid rgb(94, 104, 240);
+  margin: 0 auto;
+  width: 80%;
 }
 .img_projects img {
-  /* border: 3px solid rgb(17, 39, 167); */
+  border: 3px solid rgb(226, 31, 31);
   width: 100%;
   margin: 30px auto;
 }
 
 .material-icons-outlined {
-  /* border: 3px solid rgb(137, 13, 153); */
+  border: 3px solid rgb(137, 13, 153);
   padding: 30px;
   border-radius: 50px;
   background-color: rgb(238, 238, 238);
@@ -338,14 +347,16 @@ h1 {
 }
 
 #list_projects {
-  /* border: 3px solid rgb(137, 13, 153); */
-  width: 70%;
+  border: 3px solid rgb(137, 13, 153);
+  width: 80%;
+  display: inline-flex;
+  justify-content: center;
 }
 
 #list_button {
+  border: 3px solid rgb(29, 153, 13);
   display: flex;
   font-size: 1.3em;
-  justify-content: space-around;
 }
 
 #list_button li {
