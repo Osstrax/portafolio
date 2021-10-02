@@ -268,21 +268,23 @@ h1 {
 }
 .icons span {
   border: 3px solid rgb(123, 148, 32);
-  position: absolute;
+  /* position: absolute; */
   font-weight: 800;
   font-size: 3.9em;
   line-height: 1em;
   color: rgba(148, 148, 148, 0.199);
 }
-.icons img {
-  position: relative;
-  top: 20%;
+.img_icon {
+  /* position: relative; */
+  /* top: 20%; */
+  margin: 5% 0px;
   border: 3px solid rgb(228, 103, 20);
 }
 
-.icons p {
-  position: relative;
-  top: 13%;
+.texto_cont {
+  /* position: relative; */
+  /* top: 13%; */
+  margin: 0;
   border: 3px solid rgb(137, 13, 153);
   color: rgba(148, 148, 148, 0.863);
   font-size: 0.9em;
