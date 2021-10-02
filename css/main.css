@@ -313,7 +313,7 @@ h1 {
 }
 
 .img_projects {
-  /* border: 3px solid rgb(13, 153, 60); */
+  border: 3px solid rgb(13, 153, 60);
 }
 .img_projects img {
   /* border: 3px solid rgb(17, 39, 167); */
