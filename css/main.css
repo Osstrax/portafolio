@@ -358,7 +358,7 @@ h1 {
   width: 100%;
   font-size: 1.3em;
   justify-content: space-around;
-  padding: 9px;
+  padding: 1%;
 }
 
 #list_button li {
@@ -375,9 +375,8 @@ h1 {
   border-radius: 1.6em;
   color: #00b1bb;
   font-weight: 600;
-  /* height: 3rem; */
+  margin: 2%;
   padding: 12px 50px;
-  /* width: 11rem; */
 }
 
 #btn_projects:hover {
