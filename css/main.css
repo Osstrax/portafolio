@@ -21,30 +21,38 @@ body {
   margin: 0 auto;
 }
 #cont_primario {
-  width: 100%;
-  height: 800px;
-  margin: 0 auto;
-  /* border: 2px solid green; */
+  /* width: 100%; */
+  height: 750px;
+  /* border: 2px solid rgb(41, 211, 241); */
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627150796/landing_sapiensa/img/slide_1_tq4vpn.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
 }
+#centrado {
+  display: flex;
+  justify-content: center;
+}
+
 #menu_prin {
-  box-shadow: 0px 0px 5px #541b5f;
-  width: 70%;
-  height: 120px;
-  margin: 2% 10%;
-  position: fixed;
-  /* border: 2px solid green; */
+  align-items: center;
   background-color: mintcream;
-  border-radius: 1.5em;
+  /* border: 2px solid rgb(40, 9, 221); */
+  border-radius: 1em;
+  box-shadow: 0px 0px 5px #a7caaa;
+  justify-content: space-between;
+  display: inline-flex;
+  margin: .6% auto;
+  padding: .6%;
+  position: fixed;
+  width: 70%;
   z-index: 2;
 }
 #logo {
-  position: absolute;
-  width: 30%;
+  width: 25%;
   height: 95%;
   /* border: 2px solid red; */
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,14 +61,12 @@ body {
 }
 
 #nav_general {
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  width: 60%;
-  height: 95%;
-  /* border: 2px solid red; */
-  right: 0;
   align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
+  height: 95%;
+  width: 70%;
+  /* border: 2px solid rgb(25, 231, 35); */
 }
 #nav_list {
   display: contents;
@@ -69,12 +75,12 @@ body {
 #nav_list a:hover {
   font-weight: 400;
   color: #eb6608;
-  border-bottom: 2px solid #00b1bb;
+  /* border-bottom: 2px solid #00b1bb; */
   transition-duration: 0.1s;
 }
 #contenedor_news {
   position: absolute;
-  width: 30%;
+  width: 50%;
   /* border: 2px solid red; */
   top: 40%;
   left: 14.5%;
@@ -101,7 +107,7 @@ h1 {
   font-weight: 700;
 }
 #titulo_news strong {
-  color: #034246;
+  color: #0d10ce;
   font-weight: 800;
 }
 #descripcion {
@@ -115,19 +121,17 @@ h1 {
   /* border: 2px solid yellow; */
 }
 .btn_news {
-  border: 2px solid #00b1bb;
+  /* border: 2px solid #00b1bb; */
   background-color: rgba(240, 255, 255, 0.938);
   border-radius: 1.4em;
   color: #00b1bb;
   display: flex;
   flex-direction: column-reverse;
   font-weight: 600;
-  /* height: 3rem; */
   justify-content: center;
   margin: 0 40px 0 0;
   text-align: center;
   padding: 8px 30px;
-  /* width: 11rem; */
 }
 .leer_mas:hover {
   background-color: #eb6608;
@@ -147,7 +151,7 @@ h1 {
 
 #cont_slider {
   width: 80%;
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
   height: 550px;
   margin: 5% auto;
   align-items: center;
@@ -161,44 +165,44 @@ h1 {
 
 .slider_ {
   /* width: 33%; */
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   display: flex;
   align-items: center;
 }
 
 #slider_03, #slider_01 {
   width: 25%;
-  border: 5px solid rgb(44, 241, 5);
+  /* border: 5px solid rgb(44, 241, 5); */
   flex-direction: row-reverse;
   box-shadow: 2px 2px 12px #6f70707c;
 }
 #slider_02 {
   width: 50%;
-  border: 5px solid rgb(241, 159, 5);
+  /* border: 5px solid rgb(241, 159, 5); */
   box-shadow: 2px 2px 12px #6f70707c;
 }
 
 #img_01 {
-  border: 2px solid rgb(10, 236, 67);
+  /* border: 2px solid rgb(10, 236, 67); */
   width: 350px;
 }
 #img_02 {
-  border: 2px solid rgb(10, 236, 67);
+  /* border: 2px solid rgb(10, 236, 67); */
   width: 350px;
 }
 #img_03 {
-  border: 2px solid rgb(10, 236, 67);
+  /* border: 2px solid rgb(10, 236, 67); */
   width: 350px;
 }
 #cont_img_01 {
-  border: 3px solid rgb(137, 13, 153);
+  /* border: 3px solid rgb(137, 13, 153); */
   width: 230px;
   height: 345px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627141690/landing_sapiensa/img/brand_ser_zvd5eo.jpg);
   background-size: cover;
 }
 #cont_info_01 {
-  border: 2px solid rgb(36, 236, 10);
+  /* border: 2px solid rgb(36, 236, 10); */
   background-color: #00b1bb;
   display: flex;
   width: 85px;
@@ -208,14 +212,14 @@ h1 {
   align-items: center;
 }
 #cont_img_02 {
-  border: 3px solid sandybrown;
+  /* border: 3px solid sandybrown; */
   width: 490px;
   height: 430px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627142427/landing_sapiensa/img/web_i2rar5.jpg);
   background-size: cover;
 }
 #cont_info_02 {
-  border: 2px solid rgb(10, 14, 236);
+  /* border: 2px solid rgb(10, 14, 236); */
   background-color: #00b1bb;
   display: flex;
   box-shadow: 2px 2px 12px #6f7070b7;
@@ -233,14 +237,14 @@ h1 {
 }
 
 #cont_img_03 {
-  border: 3px solid rgb(137, 13, 153);
+  /* border: 3px solid rgb(137, 13, 153); */
   width: 230px;
   height: 345px;
   background-image: url(https://res.cloudinary.com/osstrax/image/upload/v1627142845/landing_sapiensa/img/recording_keacgx.jpg);
   background-size: cover;
 }
 #cont_info_03 {
-  border: 2px solid rgb(36, 236, 10);
+  /* border: 2px solid rgb(36, 236, 10); */
   background-color: #00b1bb;
   display: flex;
   width: 85px;
@@ -256,7 +260,7 @@ h1 {
 }
 
 .cont_icons {
-  border: 2px solid rgb(52, 151, 39);
+  /* border: 2px solid rgb(52, 151, 39); */
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -267,33 +271,29 @@ h1 {
   align-items: center;
   margin: 0 1%;
   width: 22%;
-  border: 3px solid rgb(13, 125, 153);
+  /* border: 3px solid rgb(13, 125, 153); */
   display: flex;
   flex-direction: column;
   padding: 2%;
+  box-shadow: .05em .3em .5em #38474728;
 }
 ._span {
-  border: 3px solid rgb(123, 148, 32);
-  /* position: absolute; */
+  /* border: 3px solid rgb(123, 148, 32); */
   font-weight: 800;
   font-size: 3.9em;
   line-height: 1em;
-  color: rgba(148, 148, 148, 0.199);
+  color: rgba(148, 148, 148, 0.082);
 }
 .img_icon {
-  /* position: relative; */
-  /* top: 20%; */
   margin: 10% 0px;
-  border: 3px solid rgb(228, 103, 20);
+  /* border: 3px solid rgb(228, 103, 20); */
 }
 
 .texto_cont {
-  /* position: relative; */
-  /* top: 13%; */
-  margin: 0;
-  border: 3px solid rgb(137, 13, 153);
+  /* border: 3px solid rgb(137, 13, 153); */
   color: rgba(148, 148, 148, 0.863);
   font-size: 0.9em;
+  text-align: center;
 }
 
 .cont_projects {
@@ -438,17 +438,3 @@ h1 {
   font-size: 1.2em;
 }
 
-.footer_, ul {
-  width: 80%;
-  margin: 10px;
-  justify-content: space-around;
- 
-}
-
-.footer_, a, p, img {
-  margin: 20px;
-}
-
-#footer_ ul {
-  display: inline-flex;
-}
