@@ -297,7 +297,7 @@ h1 {
 }
 
 .cont_projects {
-  border: 3px solid rgb(81, 196, 46);
+  /* border: 3px solid rgb(81, 196, 46); */
   width: 97%;
   height: 60%;
   margin: 10% auto;
@@ -309,11 +309,11 @@ h1 {
 
 .cont_projects h2 {
   font-size: 3.5em;
-  border-bottom: 2px solid #00b1bb;
+  /* border-bottom: 2px solid #00b1bb; */
 }
 
 .cont_carrusel {
-  border: 3px solid rgb(154, 201, 25);
+  /* border: 3px solid rgb(154, 201, 25); */
   width: 80%;
   height: 40%;
   display: flex;
@@ -322,19 +322,18 @@ h1 {
 }
 
 .img_projects {
-  /* text-align: center; */
-  border: 3px solid rgb(94, 104, 240);
+  /* border: 3px solid rgb(94, 104, 240); */
   margin: 0 auto;
   width: 80%;
 }
 .img_projects img {
-  border: 3px solid rgb(226, 31, 31);
+  /* border: 3px solid rgb(226, 31, 31); */
   width: 100%;
   margin: 30px auto;
 }
 
 .material-icons-outlined {
-  border: 3px solid rgb(137, 13, 153);
+  /* border: 3px solid rgb(137, 13, 153); */
   padding: 30px;
   border-radius: 50px;
   background-color: rgb(238, 238, 238);
@@ -347,16 +346,19 @@ h1 {
 }
 
 #list_projects {
-  border: 3px solid rgb(137, 13, 153);
+  /* border: 3px solid rgb(137, 13, 153); */
   width: 80%;
   display: inline-flex;
   justify-content: center;
 }
 
 #list_button {
-  border: 3px solid rgb(29, 153, 13);
+  /* border: 3px solid rgb(29, 153, 13); */
   display: flex;
+  width: 100%;
   font-size: 1.3em;
+  justify-content: space-around;
+  padding: 9px;
 }
 
 #list_button li {
